@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UpperSoft - Login</title>
+    <title>UpperSoft - Cadastro</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
-    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <link rel="stylesheet" type="text/css" href="cadastro.css"/>
 </head>
 <body>
     <header>
@@ -15,16 +15,55 @@
         </div>
     </header>
     
-    <div id="login">
+    <div id="cadastro">
         <h1>Cadastro</h1>
-        <form>
-            <label for="email">E-mail</label><br/>
+        <form method="POST" id="fCadastro" action="">
+            <label for="nomecompleto">Nome completo</label>
+            <label for="email" id="lblemail">E-mail</label><br/>
+            <input type="text" id="nomecompleto" name="nomecompleto"/>
             <input type="email" id="email" name="email"/><br/>
-            <label for="senha">Senha</label><br/>
-            <input type="password" id="senha" name="senha"/><br/>
-            <input type="button" id="entrar" onclick="" value="ENTRAR"/>
+            <label for="estado">Estado</label>
+            <label for="sexo" id="lblsexo">Sexo</label><br/>
+            <select name="estado" id="estado">
+                <option></option>
+                <option>Acre</option>
+                <option>Alagoas</option>
+                <option>Amapá</option>
+                <option>Amazonas</option>
+                <option>Bahia</option>
+                <option>Distrito Federal</option>
+                <option>Ceará</option>
+                <option>Espírito Santo</option>
+                <option>Goiás</option>
+                <option>Maranhão</option>
+                <option>Mato Grosso</option>
+                <option>Mato Grosso do Sul</option>
+                <option>Minas Gerais</option>
+                <option>Pará</option>
+                <option>Paraíba</option>
+                <option>Paraná</option>
+                <option>Pernambuco</option>
+                <option>Piauí</option>
+                <option>Rio de Janeiro</option>
+                <option>Rio Grande do Sul</option>
+                <option>Rondônia</option>
+                <option>Roraima</option>
+                <option>Santa Catarina</option>
+                <option>São Paulo</option>
+                <option>Sergipe</option>
+                <option>Tocantins</option>
+            </select>
+            <input type="radio" class="radio" name="sexo" id="fem"/><label for="fem" class="opt">Feminino</label>
+            <input type="radio" class="radio" name="sexo" id="masc"/><label for="masc" class="opt">Masculino</label>
+            <input type="radio" class="radio" name="sexo" id="outro"/><label for="outro" class="opt">Outro</label><br/>
+            <label for="senha">Senha</label>
+            <label for="repetsenha" id="lblrepet">Confirmar senha</label><br/>
+            <input type="password" id="senha" name="senha" minlength="6" required/>
+            <input type="password" id="repetsenha" name="repetsenha" minlength="6" required/><br/>
+            <p>A senha deve ter no mínimo 6 caracteres</p>
+            <input type="button" class="submit" id="entrar" onclick="" value="ENTRAR"/>
         </form>
-        <h2>Não possui conta? <a href="cadastro.html">Cadastre-se aqui</a></h2>
+        <h2>Já possui conta? <a href="index.html">Entre aqui</a></h2>
     </div>
 </body>
 </html>

@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+div#cadastro{
+    background-color: #FFFFFF;
+    margin-top: 25vh;
+    margin-left: 31vw;
+    width: 38vw;
+    height: 55vh;
+    padding-top: 1vh;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #174DBA;
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #505050;
+    text-align: center;
+}
+
+select{
+    border-color: #174DBA;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: 1.8vw;
+    margin-right: 1.8vw;
+    height: 4.7vh;
+    width: 16.4vw;
+}
+
+input.submit{
+    margin-left: 10.8vw;
+}
+
+label{
+    margin-left: 1.8vw;
+    margin-bottom: 1vh;
+}
+
+label#lblemail{
+    margin-left: 10.87vw;
+}
+
+label#lblsexo{
+    margin-left: 14.9vw;
+}
+
+label#lblrepet{
+    margin-left: 15.2vw;
+}
+
+label.opt{
+    margin-left: 0.3vw;
+    margin-right: 0.1vw;
+}
+
+input{
+    margin-left: 1.8vw;
+}
+
+input.radio{
+    margin: 0;
+    height: 2vh;
+    width: 1vw;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #dadce0;
+    margin-left: 1.8vw;
+    margin-top: -15px;
+}

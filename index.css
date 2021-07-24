@@ -25,3 +25,11 @@ h2{
     text-align: center;
 }
 
+label{
+    margin-left: 4vw;
+    margin-bottom: 1vh;
+}
+
+input{
+    margin-left: 4vw;
+}

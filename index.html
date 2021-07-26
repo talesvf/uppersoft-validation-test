@@ -7,6 +7,7 @@
     <title>UpperSoft - Login</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="stylesheet" type="text/css" href="index.css"/>
+    <script src="scripts.js"></script>
 </head>
 <body>
     <header>
@@ -17,12 +18,13 @@
     
     <div id="login">
         <h1>Acessar</h1>
-        <form method="POST" id="cLogin" action="">
+        <form method="POST" id="fLogin">
             <label for="email">E-mail</label><br/>
-            <input type="email" id="email" name="email"/><br/>
+            <input type="text" id="email" onkeyup="verificaemail('l')" required/><br/>
+            <div id="verifical"></div>
             <label for="senha">Senha</label><br/>
-            <input type="password" id="senha" name="senha"/><br/>
-            <input type="button" class="submit" onclick="" value="ENTRAR"/>
+            <input type="password" id="senha" name="senha" required/><br/>
+            <input type="button" class="submit" onclick="verificalogin()" value="ENTRAR"/>
         </form>
         <h2>Não possui conta? <a href="cadastro.html">Cadastre-se aqui</a></h2>
     </div>

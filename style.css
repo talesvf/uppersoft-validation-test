@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 div#header {
     width: 100vw;
     height: 7vh;
@@ -47,4 +48,18 @@ a:link{
 a:visited{
     text-decoration: none;
     color: #174DBA;
+}
+
+@media only screen and (max-width: 900px){
+    div#header {
+        width: 100vw;
+        height: 5vh;
+        background-color: #174DBA;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding-top: 1vh;
+        padding-left: 43.6vw;
+    }
+
 }

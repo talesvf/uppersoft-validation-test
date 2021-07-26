@@ -9,6 +9,18 @@ div#login{
     padding-top: 1vh;
 }
 
+div#verifical{
+    width: 12vw;
+    height: 2vh;
+    position: absolute;
+    top: 43.7vh;
+    left: 43vw;
+    border-radius: 5px;
+    color: #505050;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;

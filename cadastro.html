@@ -7,6 +7,7 @@
     <title>UpperSoft - Cadastro</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="stylesheet" type="text/css" href="cadastro.css"/>
+    <script src="scripts.js"></script>
 </head>
 <body>
     <header>
@@ -17,14 +18,15 @@
     
     <div id="cadastro">
         <h1>Cadastro</h1>
-        <form method="POST" id="fCadastro" action="">
+        <form method="POST" id="fCadastro">
             <label for="nomecompleto">Nome completo</label>
             <label for="email" id="lblemail">E-mail</label><br/>
-            <input type="text" id="nomecompleto" name="nomecompleto"/>
-            <input type="email" id="email" name="email"/><br/>
+            <input type="text" id="nomecompleto" name="nomecompleto" required/>
+            <input type="text" id="email" name="email" onkeyup="verificaemail('c')" required/><br/>
+            <div id="verificac"></div>
             <label for="estado">Estado</label>
             <label for="sexo" id="lblsexo">Sexo</label><br/>
-            <select name="estado" id="estado">
+            <select name="estado" id="estado" required>
                 <option></option>
                 <option>Acre</option>
                 <option>Alagoas</option>
@@ -61,7 +63,7 @@
             <input type="password" id="senha" name="senha" minlength="6" required/>
             <input type="password" id="repetsenha" name="repetsenha" minlength="6" required/><br/>
             <p>A senha deve ter no mínimo 6 caracteres</p>
-            <input type="button" class="submit" id="entrar" onclick="" value="ENTRAR"/>
+            <input type="button" class="submit" id="entrar" onclick="verificacadastro()" value="ENTRAR"/>
         </form>
         <h2>Já possui conta? <a href="index.html">Entre aqui</a></h2>
     </div>

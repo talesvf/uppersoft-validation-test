@@ -50,16 +50,32 @@ a:visited{
     color: #174DBA;
 }
 
+@media only screen and (max-width: 1300px){
+    div#header {
+        padding-left: 43vw;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    div#header {
+        padding-left: 42vw;
+    }
+}
+
 @media only screen and (max-width: 900px){
     div#header {
-        width: 100vw;
-        height: 5vh;
-        background-color: #174DBA;
-        position: fixed;
-        top: 0;
-        left: 0;
-        padding-top: 1vh;
-        padding-left: 43.6vw;
+        padding-left: 40vw;
     }
+}
 
+@media only screen and (max-width: 700px){
+    div#header {
+        padding-left: 38vw;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    div#header {
+        padding-left: 25vw;
+    }
 }

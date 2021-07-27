@@ -92,3 +92,204 @@ p{
     margin-left: 1.8vw;
     margin-top: -15px;
 }
+
+@media only screen and (max-width: 1300px){
+    div#cadastro {
+        width: 48vw;
+        margin-left: 30vw;
+    }
+    div#verificac {
+        top: 42.3vh;
+        width: 15vw;
+        left: 55.4vw;
+        height: 1.5vh;
+    }
+    input{
+        width: 17vw;
+        margin-left: 4vw;
+    }
+    input.submit{
+        margin-left: 14vw;
+    }
+    label{
+        margin-left: 4vw;
+    }
+    label#lblemail{
+        margin-left: 11.87vw;
+    }
+    
+    label#lblsexo{
+        margin-left: 16.6vw;
+    }
+    
+    label#lblrepet{
+        margin-left: 16.9vw;
+    }
+    select{
+        margin-left: 4vw;
+        margin-right: 2vw;
+    }
+    p{
+        margin-left: 4vw;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    div#cadastro {
+        width: 52vw;
+        margin-left: 27vw;
+    }
+    div#verificac {
+        top: 42.3vh;
+        width: 18vw;
+        left: 53.8vw;
+        height: 1.5vh;
+    }
+    input{
+        margin-left: 6vw;
+    }
+    input.submit{
+        margin-left: 14vw;
+    }
+    label{
+        margin-left: 6vw;
+    }
+    label#lblemail{
+        margin-left: 11.87vw;
+    }
+    
+    label#lblsexo{
+        margin-left: 16.6vw;
+    }
+    
+    label#lblrepet{
+        margin-left: 16.9vw;
+    }
+    select{
+        margin-left: 6vw;
+        margin-right: 2vw;
+    }
+    p{
+        margin-left: 6vw;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    div#cadastro {
+        width: 55vw;
+        margin-left: 25.5vw;
+    }
+    div#verificac {
+        top: 42.3vh;
+        width: 18vw;
+        left: 53.8vw;
+        height: 1.5vh;
+    }
+    input{
+        margin-left: 6vw;
+    }
+    input.submit{
+        margin-left: 14vw;
+    }
+    label{
+        margin-left: 6vw;
+    }
+    label#lblemail{
+        margin-left: 11.87vw;
+    }
+    
+    label#lblsexo{
+        margin-left: 16.6vw;
+    }
+    
+    label#lblrepet{
+        margin-left: 16.9vw;
+    }
+    select{
+        margin-left: 6vw;
+        margin-right: 2vw;
+    }
+    p{
+        margin-left: 6vw;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    div#cadastro {
+        width: 58vw;
+        margin-left: 24vw;
+    }
+    div#verificac {
+        top: 42.3vh;
+        width: 18vw;
+        left: 53.8vw;
+        height: 1.5vh;
+    }
+    input{
+        margin-left: 6vw;
+    }
+    input.submit{
+        margin-left: 14vw;
+    }
+    label{
+        margin-left: 6vw;
+    }
+    label#lblemail{
+        margin-left: 11.87vw;
+    }
+    
+    label#lblsexo{
+        margin-left: 16.6vw;
+    }
+    
+    label#lblrepet{
+        margin-left: 16.9vw;
+    }
+    select{
+        margin-left: 6vw;
+        margin-right: 2vw;
+    }
+    p{
+        margin-left: 6vw;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    div#cadastro {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    div#verificac {
+        top: 42.3vh;
+        width: 18vw;
+        left: 53.8vw;
+        height: 1.5vh;
+    }
+    input{
+        margin-left: 6vw;
+    }
+    input.submit{
+        margin-left: 14vw;
+    }
+    label{
+        margin-left: 6vw;
+    }
+    label#lblemail{
+        margin-left: 11.87vw;
+    }
+    
+    label#lblsexo{
+        margin-left: 16.6vw;
+    }
+    
+    label#lblrepet{
+        margin-left: 16.9vw;
+    }
+    select{
+        margin-left: 6vw;
+        margin-right: 2vw;
+    }
+    p{
+        margin-left: 6vw;
+    }
+}
